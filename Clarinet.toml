@@ -12,6 +12,14 @@ depends_on = []
 path = "contracts/crowdfunding.clar"
 depends_on = []
 
+[contracts.fund-management]
+path = "contracts/fund-management.clar"
+depends_on = []
+
+[contracts.milestones]
+path = "contracts/milestones.clar"
+depends_on = []
+
 [contracts.tokens]
 path = "contracts/tokens.clar"
 depends_on = []
