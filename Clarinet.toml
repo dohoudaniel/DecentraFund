@@ -4,8 +4,16 @@ authors = []
 description = ""
 telemetry = false
 requirements = []
+[contracts.contributors]
+path = "contracts/contributors.clar"
+depends_on = []
+
 [contracts.crowdfunding]
 path = "contracts/crowdfunding.clar"
+depends_on = []
+
+[contracts.tokens]
+path = "contracts/tokens.clar"
 depends_on = []
 
 [repl]
