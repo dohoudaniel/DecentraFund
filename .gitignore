@@ -3,3 +3,4 @@ settings/Mainnet.toml
 settings/Testnet.toml
 history.txt
 text.txt
+.vscode
