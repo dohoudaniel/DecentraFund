@@ -1,19 +1,26 @@
 [project]
-name = "DecentraFund"
+name = 'DecentraFund'
+description = ''
 authors = []
-description = ""
 telemetry = false
+cache_dir = '.cache'
 requirements = []
 [contracts.crowdfunding]
-path = "contracts/crowdfunding.clar"
-depends_on = []
+path = 'contracts/crowdfunding.clar'
+clarity_version = 1
+epoch = 2.05
 
-[repl]
-costs_version = 2
-parser_version = 2
+[contracts.escrow]
+path = 'contracts/escrow.clar'
+clarity_version = 3
+epoch = 3.1
 
+[contracts.reward-token]
+path = 'contracts/reward-token.clar'
+clarity_version = 3
+epoch = 3.1
 [repl.analysis]
-passes = ["check_checker"]
+passes = ['check_checker']
 
 [repl.analysis.check_checker]
 strict = false
